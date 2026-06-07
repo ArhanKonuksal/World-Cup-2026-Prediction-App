@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none" role="img" aria-label="World Cup 2026 Predictor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c0c0c"/>
+      <stop offset="1" stop-color="#151515"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d4b05a"/>
+      <stop offset="1" stop-color="#b8952f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="72" y="72" width="1056" height="486" stroke="#b8952f" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Bracket motif -->
+  <g stroke="#b8952f" stroke-opacity="0.18" stroke-width="2" fill="none">
+    <path d="M860 180 H920 V220 H980"/>
+    <path d="M860 450 H920 V410 H980"/>
+    <path d="M980 220 V410"/>
+    <path d="M980 315 H1040"/>
+    <path d="M700 220 H760 V180 H820"/>
+    <path d="M700 410 H760 V450 H820"/>
+    <path d="M820 180 V450"/>
+    <path d="M820 315 H860"/>
+  </g>
+
+  <!-- Mark -->
+  <rect x="96" y="198" width="112" height="112" stroke="url(#gold)" stroke-width="2" fill="rgba(184,149,47,0.08)"/>
+  <rect x="96" y="198" width="112" height="8" fill="#b8952f"/>
+  <text
+    x="152"
+    y="278"
+    text-anchor="middle"
+    fill="url(#gold)"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-weight="600"
+    letter-spacing="-0.03em"
+  >26</text>
+
+  <!-- Copy -->
+  <text
+    x="240"
+    y="228"
+    fill="rgba(250,250,250,0.45)"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="22"
+    font-weight="600"
+    letter-spacing="0.18em"
+  >FIFA WORLD CUP 2026</text>
+
+  <text
+    x="240"
+    y="292"
+    fill="#fafafa"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="58"
+    font-weight="500"
+  >World Cup 2026 Predictor</text>
+
+  <text
+    x="240"
+    y="352"
+    fill="rgba(250,250,250,0.72)"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="28"
+    font-weight="400"
+  >Predict groups, pick 8 third-place teams, build your knockout bracket.</text>
+
+  <text
+    x="240"
+    y="410"
+    fill="rgba(250,250,250,0.45)"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="22"
+    font-weight="500"
+    letter-spacing="0.08em"
+  >48 TEAMS | 104 MATCHES | USA | MEXICO | CANADA</text>
+
+  <rect x="240" y="448" width="120" height="3" fill="#b8952f"/>
+
+  <text
+    x="240"
+    y="492"
+    fill="rgba(184,149,47,0.85)"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-size="20"
+    font-weight="500"
+  >worldcup2026.arhan-konuksal.dev</text>
+</svg>
