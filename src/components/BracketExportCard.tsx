@@ -39,9 +39,8 @@ export function BracketExportCard({
           <div className="export-card-heading">
             <p className="export-eyebrow">{eyebrow}</p>
             <h2 className="export-title">
-              {displayName}
-              <span className="export-title-sep"> — </span>
-              {titleLine}
+              <span className="export-title-name">{displayName}</span>
+              <span className="export-title-sub">{titleLine}</span>
             </h2>
           </div>
         </div>
